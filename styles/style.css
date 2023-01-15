@@ -1,0 +1,87 @@
+* {
+  font-family: "Work Sans", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif,
+    "Times New Roman", Times, serif;
+}
+.primary-btn {
+  width: 180px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff900e;
+  border: #ff900e;
+  border-radius: 8px;
+
+  margin: auto 870px;
+}
+.header-section {
+  width: 1920px;
+  height: 1322px;
+  background-color: #fcfcfc;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 302px;
+  height: 53px;
+  margin-top: 50px;
+  margin-left: 228px;
+}
+.logo p {
+  font-weight: 800;
+  font-size: 42px;
+  margin-top: auto;
+  text-align: center;
+  color: #131313;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  width: 477px;
+  height: 26px;
+  margin-top: 63px;
+  margin-right: 240px;
+}
+.nav-items a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+.content {
+  align-items: center;
+  margin-top: 95px;
+  margin-right: 573px;
+  margin-left: 485px;
+}
+.content h1 {
+  width: 862px;
+  height: 225px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+}
+.content p {
+  width: 868px;
+  height: 52px;
+  margin-top: -90px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+}
+.banner-image {
+  justify-content: center;
+  width: 1440px;
+  height: 700px;
+  margin: 50px 240px;
+}
