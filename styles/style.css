@@ -149,9 +149,6 @@ main {
   justify-content: center;
   gap: 146px;
 }
-.content-details {
-}
-
 .experience-intro {
   display: flex;
   justify-content: flex-start;
@@ -179,7 +176,6 @@ p {
   line-height: 26px;
   color: #727272;
 }
-
 .experience-items {
   width: 586px;
   height: 171px;
@@ -208,7 +204,6 @@ p {
 .experience-btn {
   width: 342px;
   height: 200px;
-
   font-weight: 700;
   line-height: 30px;
   text-align: center;
@@ -219,4 +214,335 @@ p {
   margin: 32px 0px;
   padding: 45px 35px;
   translate: 645px -174px;
+}
+/* some facts section */
+.facts-section {
+  width: 1440px;
+  margin-top: 100px;
+}
+.fact-content h4 {
+  width: 258px;
+  height: 53px;
+  font-size: 40px;
+  line-height: 53px;
+  margin-bottom: 10px;
+}
+.fact-content p {
+  width: 542px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.facts-testimonial {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  align-items: center;
+  margin: 70px 30px;
+  gap: 15px;
+}
+.fact-lists {
+  box-sizing: border-box;
+  width: 241.83px;
+  height: 241.83px;
+  border-radius: 8px;
+  padding: 45.95px 36.92px 59.69px 35.92px;
+  border: solid 1px #ff900e;
+  transition: border-width 0.6s linear;
+}
+.fact-lists:hover {
+  border-width: 20px;
+}
+.award {
+  width: 169px;
+  height: 136.22px;
+  text-align: center;
+}
+.award h5 {
+  width: 55px;
+  height: 53px;
+  font-weight: 600;
+  font-size: 45px;
+  margin: auto;
+  line-height: 53px;
+  color: #424242;
+}
+.award p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #727272;
+}
+.projects {
+  width: 169px;
+  height: 136.22px;
+  text-align: center;
+}
+.projects h5 {
+  width: 102px;
+  height: 53px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+  margin: 5px;
+  padding: 0 22px;
+  line-height: 53px;
+  color: #424242;
+}
+.projects p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #727272;
+}
+.clients {
+  width: 169px;
+  height: 136.22px;
+  text-align: center;
+}
+.clients h5 {
+  width: 102px;
+  height: 53px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+  margin: 5px;
+  padding: 0 22px;
+  line-height: 53px;
+  color: #424242;
+}
+.clients p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #727272;
+}
+.emails {
+  width: 169px;
+  height: 136.22px;
+  text-align: center;
+}
+.emails h5 {
+  width: 102px;
+  height: 53px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 42px;
+  margin: 5px;
+  padding: 0 20px;
+  line-height: 53px;
+  color: #424242;
+}
+.emails p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #727272;
+}
+/* sponsors section */
+.sponsors-section {
+  width: 1440px;
+  margin-bottom: 90px;
+}
+.sponsors-content {
+  width: 542px;
+  height: 129px;
+  margin: 100px 430px;
+}
+.sponsors-content h4 {
+  width: 380px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 75px;
+}
+.sponsors-content p {
+  width: 542px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+.sponsors-container {
+  display: flex;
+  justify-content: space-around;
+  filter: grayscale(100%);
+}
+/* contact section */
+.contact-section {
+  width: 1440px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.contact-content {
+  width: 800px;
+  height: 165px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 15px;
+  color: #131313;
+  margin: 0px 320px;
+}
+.short-description h3 {
+  width: 600px;
+  height: 80px;
+
+  font-size: 20px;
+  line-height: 53px;
+
+  margin: auto 185px;
+}
+.short-description p {
+  width: 580px;
+  height: 53px;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 3px;
+  color: #131313;
+  margin: auto 150px;
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  align-items: center;
+  margin: 70px 30px;
+  gap: 15px;
+}
+.way-contact {
+  box-sizing: border-box;
+  width: 241.83px;
+  height: 241.83px;
+  border-radius: 8px;
+  padding: 45.95px 36.92px 59.69px 35.92px;
+  background: #37dca9;
+  border: solid 1px #ff900e;
+
+  transition: border-width 0.6s linear;
+}
+.chats {
+  width: 169px;
+  height: 136.22px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.chats img {
+  text-align: center;
+  margin: -2px 0px;
+}
+.chats p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.chats input {
+  height: 30px;
+  border: 2px solid #ff900e;
+  border-radius: 5px;
+  padding: 1px 0px;
+}
+.mail {
+  width: 169px;
+  height: 136.22px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.mail img {
+  text-align: center;
+}
+.mail p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.mail input {
+  height: 30px;
+  border: 2px solid #ff900e;
+  border-radius: 5px;
+  margin: 15px -5px;
+}
+.message {
+  width: 169px;
+  height: 136.22px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.message img {
+  text-align: center;
+  margin-top: -15px;
+}
+.message p {
+  width: 169px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.message input {
+  height: 30px;
+  border: 2px solid #ff900e;
+  border-radius: 5px;
+}
+/*  */
+.social {
+  width: 169px;
+  height: 136.22px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.social img {
+  text-align: center;
+  margin-top: -10px;
+}
+.social p {
+  width: 169px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+/* footer section*/
+.footer-section {
+  width: 1440px;
+  height: 100px;
+  background: #fff4e7;
+  border-radius: 8px;
+  margin-bottom: 200px;
+}
+.footer-section p {
+  width: 625px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
+  padding: 39px 410px 38px 410px;
 }
